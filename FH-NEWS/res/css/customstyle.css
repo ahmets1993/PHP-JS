@@ -1,0 +1,351 @@
+/*----------------------------------------------------------------NAVBAR---------------------- */
+.navbar-brand {
+  padding-left: 20%;
+}
+.fixed-top {
+  transition: 0.2s all linear;
+  vertical-align: middle;
+  padding-right: 20%;
+}
+h2 {
+  font-family: 'Monserrat',sans-serif;
+  font-size: 70px;
+  font-weight:700;
+  color: white;
+  margin-bottom:20px;
+}
+a.nav-link {
+  font-family: 'Monserrat',sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: black !important;
+  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+}
+a.nav-link:hover {
+  color: #fed136 !important;
+}
+/*----------------------------------------------------------------SERVICES---------------------- */
+#services
+{
+  margin-top: 100px;
+  margin-bottom:200px;      
+  background-color: white;
+}
+.services-top h3 {
+  font-family: 'Monserrat',sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.services-top p {
+  font-family: 'Droid Serif',serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 70px; 
+}
+.item-circle {
+  border:4px solid #fed136;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 200px;
+}
+.services-content i {
+  color: #fed136;
+  line-height: 100px;
+}
+.services-content h4 {
+  font-family: 'Monserrat',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222222;
+  margin-top: 54px;
+}
+.services-content p {
+  font-family: 'Roboto Slab',serif;
+  font-size: 14px;
+  color: #777777;
+}
+/*----------------------------------------------------------------SHOP VE BAG---------------------- */
+.menge {
+  margin-bottom: 5px;
+  max-width: 80px;
+  margin-left: 90%; 
+}
+.card img {
+  width: 250px;
+  height: 250px;
+  border:1px solid white;
+  border-radius: 200px;
+}
+.card {
+  margin:10px;
+  border:1px solid;
+  margin-top: 15px;
+  box-shadow: 0 0 8px rgba(5,5,5,.3);
+  background-color: #f2f2f2;
+  border-radius: 100px;
+}
+#fh-web h4 {
+
+ font-family: 'Monserrat',sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ margin-bottom: 55px;
+}
+.fh-shop {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+#shop button {
+  margin-left: 26%;
+  background-color:#a6a6a6;
+}
+#shop img {
+ margin: 10%;
+}
+.card h3 {
+  font-family: 'Monserrat',sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.card h4 {
+  font-family: 'Droid Serif',serif;
+  font-size: 12px;
+}
+.card h5 {
+  font-family: 'Droid Serif',serif;
+  font-size: 18px;
+}
+.card-detail {
+  padding-right: 15%;
+}
+.bag-titel {
+  margin-top: 200px;
+}
+.shop-end {
+
+  margin-left: 31%;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+#warenkorb .row {
+  margin-top:20px;
+  margin-bottom: 200px;
+}
+.color-danger {
+  color: #d9534f;
+}
+.pay-icon  a{
+margin-left:20px;
+font-size: 32px;
+background-color: green;
+color: white;
+padding: 5px;
+border-radius: 15px;
+}
+.pay.icon {
+
+  margin-left:0px;
+}
+
+
+
+.item-count-input {
+  width: 50px;
+  text-align: center;
+}
+#warenkorb td {
+  vertical-align: middle;
+}
+#warenkorb tfoot  {
+  background-color: #dfdfdf;
+}
+#warenkorb table {
+  box-shadow: 0 0 8px rgba(5,5,5,.3);
+}
+
+#warenkorb .btn{
+  margin-left: 35%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+tfoot span {
+  padding-right: 60px;
+}
+tbody a {
+  color: white;
+}
+/*----------------------------------------------------------------ABOUT---------------------- */
+#about
+{
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+.about-top h3 {
+  font-family: 'Monserrat',sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-top p {
+  font-family: 'Droid Serif',serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 70px; 
+}
+#about img {
+  border:1px solid black;
+  border-radius: 200px;
+}
+
+.social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.social-icon {
+  display: inline;
+}
+.fa-twitter-square{
+ background:white ;
+ color:#55ACEE;
+}
+.fa-facebook-square {
+ background:white ;
+ color: #3B5998;}
+ .fa-instagram-square {
+  background: linear-gradient(#ff00ff,#e60000,#ff6600,#e6e600);
+  color: white;
+  margin-right: 3px;
+  margin-left: 3px;
+
+
+
+
+}
+
+#goal h3  {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+#goal p  {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 150px;
+}
+
+#footer h4 {
+  margin-left: 35%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+/*----------------------------------------------------------------ABOUT---------------------- */
+
+#news  {
+
+  margin-top: 100px;
+  
+
+  border-color: #595959;
+  margin-right: 5px;
+  margin-bottom: 150px;
+
+
+
+
+}
+
+.news-bordes {
+
+}
+
+#news .col-sm-4 {
+
+  margin-left:120px;
+  margin-bottom: 50px;
+  border:1px solid black;
+  margin-top: 15px;
+  box-shadow: 0 0 8px rgba(5,5,5,.3);
+  background-color: #f2f2f2;
+  
+  
+}
+#news img {
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.next-page {
+  margin-left: 39%;
+  font-size:40px;
+  color: black;
+
+}
+
+
+.footer {
+
+  position:fixed-bottom;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+
+  
+}
+.footer-item  {
+
+
+ font-size: 16px !important;
+
+}
+
+.footer li {
+  float: left;
+  margin-left: 150px;
+  list-style: none;
+  
+
+}
+
+.footer li a {
+  color: white;
+}
+
+
+.fa-instagram {
+
+  background: linear-gradient(#ff00ff,#e60000,#ff6600,#e6e600);
+  color: white;
+
+
+}
+
+.badge{
+
+  border-radius: 200px; 
+  background-color: #d9534f;
+  position: relative;
+  font-size: 10px;
+  top: -20px;
+  left: -22px;
+  color: white;
+
+}
