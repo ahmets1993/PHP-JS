@@ -1,0 +1,205 @@
+body{
+
+  background-image: url("../img/bg.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.show {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+.navbar{
+
+margin-bottom: 100px !important;
+
+}
+.navbar a{
+  color: white !important;
+}
+
+#Bild img:hover {
+
+  filter:drop-shadow(0 0 40px white);
+  color:white;
+}
+
+.memory-game{
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+
+.memory-card{
+  width: calc(25% - 10px);
+  height:calc(25% -10px); 
+  position: relative;
+  margin: 5px;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+
+}
+
+.memory-card:active{
+  transform: scale(.97);
+  transition: transform .2s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face ,.back-face{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  border-radius: 5px;
+  backface-visibility: hidden;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+#loginForm1{
+
+height: 700px;
+width: 500px;
+margin-left:25%;
+
+border-radius: 50px;
+background-color:black;
+opacity: 0.7;
+
+}
+#loginForm1 img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+#loginForm1 p{
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#loginForm2{
+width: 500px;
+height: 300px;
+
+margin-top: 50px;
+
+color:white;
+
+}
+
+#loginForm2 td{
+
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+
+   h3{
+    
+    color: white;
+  }
+  #flip{
+    margin-top: 50px;
+  }
+  #panel, #flip {
+
+    text-align: center;
+    background-color: rgba(232, 236, 241, 0.3);
+   
+  }
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+  #flip2{
+    margin-top: 20px;
+  }
+
+  form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+
+form.search button {
+  margin-bottom: 40px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: rgba(232, 236, 241, 1);
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.galleryview {
+
+  background-color: rgba(232, 236, 241, 0.5);
+  padding: 20px;
+  border-radius: 50px;
+ 
+  margin-bottom: 100px;
+}   
+
+.upbutton {
+
+  margin-top: 20px;
+}
+
+
+#profil{
+
+height: 500px;
+width: 500px;
+border: 2px solid white;
+color: white;
+background-color: red;
+
+
+
+}
+
+.logButton{
+margin-top: 20px;
+
+
+}

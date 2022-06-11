@@ -1,0 +1,29 @@
+<nav>
+	<anonym>
+		<!--pagetitle,pagenames-->
+		<section page="home">Home</section>
+		<section page="gallery">Gallery</section>
+		<section page="login">Log in</section>
+		<section page="register">Register</section>
+
+	</anonym>
+	<user>
+		<section page="home">Home</section>
+		<section page="gallery">Gallery</section> 
+		<section page="news">News</section> 
+		<section page="feed">Feed</section>
+		<section page="profil">Profil</section>
+		<section page="mybag">My bag</section>
+		<section page="logout">Log out</section>
+	</user>
+	<admin>
+		<section page="home">Home</section>
+		<section page="gallery">Gallery</section> 
+		<section page="news">News</section> 
+		<section page="createNews">Create News</section> 
+		<section page="useradmin">User Administration</section>
+		<section page="statistics">Statistics</section>
+		<section page="logout">Log out</section>
+	</admin>
+</nav>
+
